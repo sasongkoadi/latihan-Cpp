@@ -18,10 +18,10 @@ int main(int argc, const char * argv[]) {
     
     
     
-    if (var_1 || var_2) {
-        cout << var_1 << " || " << var_2 << " = True "<< endl;
+    if (var_1 && var_2) {
+        cout << var_1 << " && " << var_2 << " = True "<< endl;
     } else {
-        cout << var_1 << " || " << var_2 << " = False "<< endl;
+        cout << var_1 << " && " << var_2 << " = False "<< endl;
     }
     
     
