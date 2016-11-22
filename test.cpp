@@ -2,7 +2,7 @@ int main(int argc, const char * argv[]) {
     } else {
         cout << a<< " < " << b << endl;
     }
-    */
+
     
     var_1=a >= b;
     
