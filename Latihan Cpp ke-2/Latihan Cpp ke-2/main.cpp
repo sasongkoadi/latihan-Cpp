@@ -29,9 +29,8 @@ int main(int argc, const char * argv[]) {
     }
     */
     
-    var_1=a >= b;
     
-    var_2=a <= b;
+
     
     
     cout << "Enter Number A = ";
@@ -42,11 +41,36 @@ int main(int argc, const char * argv[]) {
     
     
     
+    if (a > b) {
+        cout << a << " > " << b << " = Benar"<< endl;
+    }
+    else if (a < b){
+        cout << a << " < " << b << " = Benar"<< endl;
+    }
+    else if (a == b){
+        cout << a << " == " << b << " = Benar" << endl;
+    }
+    
+    if (a != b){
+        cout << a << " != " << b << " = Benar" << endl;
+    }
+    
+    
+    var_1=a >= b;
+    
+    var_2=a <= b;
+    
     
     if (var_1 || var_2) {
         cout << var_1 << " || " << var_2 << " = True "<< endl;
     } else {
         cout << var_1 << " || " << var_2 << " = False "<< endl;
+    }
+    
+    if (var_1 && var_2) {
+        cout << var_1 << " && " << var_2 << " = True "<< endl;
+    } else {
+        cout << var_1 << " && " << var_2 << " = False "<< endl;
     }
     
     
